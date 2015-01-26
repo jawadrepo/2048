@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>2048</title>
 
-  <link href="style/main.css" rel="stylesheet" type="text/css">
+  <link href="<?php echo $this->config->item('css_url');?>style/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
   <div class="container">
@@ -64,15 +64,15 @@
     <hr>
   </div>
 
-  <script src="js/class.js"></script>
-  <script src="js/classlist.js"></script>
-  <script src="js/frame.js"></script>
-  <script src="js/keys.js"></script>
-  <script src="js/html.js"></script>
-  <script src="js/gridview.js"></script>
-  <script src="js/pagetile.js"></script>
-  <script src="js/store.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/app.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>js/class.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>js/classlist.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>js/frame.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>js/keys.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>js/html.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>js/gridview.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>js/pagetile.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>js/store.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>js/main.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>js/app.js"></script>
 </body>
 </html>
