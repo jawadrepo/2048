@@ -64,15 +64,15 @@
     <hr>
   </div>
 
-  <script src="<?php echo $this->config->item('js_url');?>js/class.js"></script>
-  <script src="<?php echo $this->config->item('js_url');?>js/classlist.js"></script>
-  <script src="<?php echo $this->config->item('js_url');?>js/frame.js"></script>
-  <script src="<?php echo $this->config->item('js_url');?>js/keys.js"></script>
-  <script src="<?php echo $this->config->item('js_url');?>js/html.js"></script>
-  <script src="<?php echo $this->config->item('js_url');?>js/gridview.js"></script>
-  <script src="<?php echo $this->config->item('js_url');?>js/pagetile.js"></script>
-  <script src="<?php echo $this->config->item('js_url');?>js/store.js"></script>
-  <script src="<?php echo $this->config->item('js_url');?>js/main.js"></script>
-  <script src="<?php echo $this->config->item('js_url');?>js/app.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>class.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>classlist.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>frame.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>keys.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>html.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>gridview.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>pagetile.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>store.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>main.js"></script>
+  <script src="<?php echo $this->config->item('js_url');?>app.js"></script>
 </body>
 </html>
